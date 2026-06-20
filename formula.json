@@ -1,0 +1,5031 @@
+{
+  "NGM 001 SW": {
+    "mixName": "NGM 001 SW",
+    "formulaType": "PVC Soft",
+    "application": "",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "25.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "50.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "13.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "8.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.05",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.75",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.01",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.001",
+        "price": "1300.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 002 SG": {
+    "mixName": "NGM 002 SG",
+    "formulaType": "PVC Soft",
+    "application": "جوان ثلاجة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "30.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "45.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "25.0",
+        "price": "110.0"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.2",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.07",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.15",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.006",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 003 SN": {
+    "mixName": "NGM 003 SN",
+    "formulaType": "PVC Soft",
+    "application": "",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "12.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "22.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "10.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 004 SN": {
+    "mixName": "NGM 004 SN",
+    "formulaType": "PVC Soft",
+    "application": "",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "21.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "50.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "14.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "7.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "0.75",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.06",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 005 SB": {
+    "mixName": "NGM 005 SB",
+    "formulaType": "PVC Soft",
+    "application": "",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "25.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "55.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "13.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "8.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.05",
+        "price": "115.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon Black",
+        "phr": "0.3",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 006 SG": {
+    "mixName": "NGM 006 SG",
+    "formulaType": "PVC Soft",
+    "application": "",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "35.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "45.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "20.0",
+        "price": "110.0"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.2",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.07",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.15",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon Black",
+        "phr": "0.006",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 007 SW": {
+    "mixName": "NGM 007 SW",
+    "formulaType": "PVC Soft",
+    "application": "",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "25.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "55.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "13.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "8.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.05",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.75",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.015",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.003",
+        "price": "1300.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 008 SN": {
+    "mixName": "NGM 008 SN",
+    "formulaType": "PVC Soft",
+    "application": "",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "15.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "5.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 009 SBg": {
+    "mixName": "NGM 009 SBg",
+    "formulaType": "PVC Soft",
+    "application": "Biege",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "30.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "43.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "18.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "8.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.1",
+        "price": "166.031"
+      },
+      {
+        "category": "Beige MB",
+        "name": "Pentone R003",
+        "originalName": "MB Biege",
+        "phr": "0.15",
+        "price": "165.0"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.05",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 010 SN": {
+    "mixName": "NGM 010 SN",
+    "formulaType": "PVC Soft",
+    "application": "Natural",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "35.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "50.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "14.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "11.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.25",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.075",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 011 SW": {
+    "mixName": "NGM 011 SW",
+    "formulaType": "PVC Soft",
+    "application": "White",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "35.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "50.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "14.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "11.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.25",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.075",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.0",
+        "price": "190.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM 012 SBg": {
+    "mixName": "NGM 012 SBg",
+    "formulaType": "PVC Soft",
+    "application": "Biege",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "38.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "25.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "22.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "7.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.5",
+        "price": "123.333"
+      },
+      {
+        "category": "Beige MB",
+        "name": "Pentone R003",
+        "originalName": "MB Biege",
+        "phr": "0.22",
+        "price": "165.0"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.07",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM C": {
+    "mixName": "NGM C",
+    "formulaType": "PVC Soft",
+    "application": "Clean",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 67",
+        "name": "Haiwan HS-1000R",
+        "originalName": "PVC K67",
+        "phr": "50.0",
+        "price": "61.428000000000004"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "50.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "3.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.5",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABC": {
+    "mixName": "NGM ABC",
+    "formulaType": "PVC Rigid",
+    "application": "Fittings 30 CaCO3",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "22.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "Cl Parraffin",
+        "phr": "1.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.25",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.5",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.011",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.04",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABB": {
+    "mixName": "NGM ABB",
+    "formulaType": "PVC Rigid",
+    "application": "Fittings 20 CaCO3",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "0.75",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.25",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.5",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.04",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABS": {
+    "mixName": "NGM ABS",
+    "formulaType": "PVC Rigid",
+    "application": "Fittings 20 CaCO3 Smart Color",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "1.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.2",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.04",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABV5": {
+    "mixName": "NGM ABV5",
+    "formulaType": "PVC Rigid",
+    "application": "Fittings Vicat 16 CaCO3 Smart Color",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "12.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.25",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "0.75",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "1.5",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.35",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.3",
+        "price": "175.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABV": {
+    "mixName": "NGM ABV",
+    "formulaType": "PVC Rigid",
+    "application": "Fittings Vicat 16 CaCO3 Smart Color",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "12.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "0.6",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "2.5",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.45",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.35",
+        "price": "175.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.25",
+        "price": "190.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABD": {
+    "mixName": "NGM ABD",
+    "formulaType": "PVC Rigid",
+    "application": "Fittings 40 CaCO3",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "1.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Powder",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.4",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.25",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.5",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.04",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABF": {
+    "mixName": "NGM ABF",
+    "formulaType": "PVC Rigid",
+    "application": "Fittings 60 CaCO3",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "60.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "36.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.2",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "1.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Powder",
+        "phr": "0.18",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.24",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.24",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.6",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.18",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "1.2",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.8",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.012",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.09",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 1": {
+    "mixName": "Test 1",
+    "formulaType": "PVC Soft",
+    "application": "طبيعي",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "35.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "10.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "4.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.05",
+        "price": "115.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 2": {
+    "mixName": "Test 2",
+    "formulaType": "PVC Soft",
+    "application": "فيشة رمادي",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "21.5",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "10.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.125",
+        "price": "190.0"
+      },
+      {
+        "category": "Beige MB",
+        "name": "Pentone R003",
+        "originalName": "Piege MB",
+        "phr": "0.0075",
+        "price": "165.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 6": {
+    "mixName": "Test 6",
+    "formulaType": "PVC Soft",
+    "application": "Piege Color",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "38.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "25.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "22.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "7.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.5",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.07",
+        "price": "115.0"
+      },
+      {
+        "category": "Beige MB",
+        "name": "Pentone R003",
+        "originalName": "Piege MB",
+        "phr": "0.22",
+        "price": "165.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 7": {
+    "mixName": "Test 7",
+    "formulaType": "PVC Soft",
+    "application": "Piege Color",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "30.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "43.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "18.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "8.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.05",
+        "price": "115.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.1",
+        "price": "166.031"
+      },
+      {
+        "category": "Beige MB",
+        "name": "Pentone R003",
+        "originalName": "Piege MB",
+        "phr": "0.15",
+        "price": "165.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 8": {
+    "mixName": "Test 8",
+    "formulaType": "PVC Soft",
+    "application": "Lead",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 67",
+        "name": "Haiwan HS-1000R",
+        "originalName": "PVC K67",
+        "phr": "50.0",
+        "price": "61.428000000000004"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "10.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "3.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Lead Stab",
+        "name": "Tepekimya STAB TP 3184-0",
+        "originalName": "Lead Stabilizer",
+        "phr": "1.5",
+        "price": "120.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.2",
+        "price": "200.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "1.0",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.5",
+        "price": "190.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.005",
+        "price": "1300.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 9": {
+    "mixName": "Test 9",
+    "formulaType": "PVC Soft",
+    "application": "Lead",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 67",
+        "name": "Haiwan HS-1000R",
+        "originalName": "PVC K67",
+        "phr": "50.0",
+        "price": "61.428000000000004"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "25.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "2.5",
+        "price": "110.0"
+      },
+      {
+        "category": "Lead Stab",
+        "name": "Tepekimya STAB TP 3184-0",
+        "originalName": "Lead Stabilizer",
+        "phr": "1.5",
+        "price": "120.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.2",
+        "price": "200.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "1.0",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.5",
+        "price": "190.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 9 (2)": {
+    "mixName": "Test 9 (2)",
+    "formulaType": "PVC Soft",
+    "application": "Lead - No TiO2",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 67",
+        "name": "Haiwan HS-1000R",
+        "originalName": "PVC K67",
+        "phr": "50.0",
+        "price": "61.428000000000004"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "25.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "2.5",
+        "price": "110.0"
+      },
+      {
+        "category": "Lead Stab",
+        "name": "Tepekimya STAB TP 3184-0",
+        "originalName": "Lead Stabilizer",
+        "phr": "1.5",
+        "price": "120.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.2",
+        "price": "200.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "1.0",
+        "price": "85.265"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 11": {
+    "mixName": "Test 11",
+    "formulaType": "PVC Soft",
+    "application": "Gray Color",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "35.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "40.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "27.0",
+        "price": "110.0"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.5",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.07",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.15",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.006",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "M002": {
+    "mixName": "M002",
+    "formulaType": "PVC Soft",
+    "application": "Yellow Color",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "70.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "100.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "28.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "22.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.5",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.15",
+        "price": "115.0"
+      },
+      {
+        "category": "Yellow Pig",
+        "name": "Pigment Yellow 13",
+        "originalName": "Yellow MB",
+        "phr": "0.5",
+        "price": "520.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير تجربة فيشة 30 فللر": {
+    "mixName": "تسعير تجربة فيشة 30 فللر",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "21.5",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "10.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.125",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.008",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير تجربة فيشة 20 فللر": {
+    "mixName": "تسعير تجربة فيشة 20 فللر",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "53.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "11.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "23.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "10.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.1",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.125",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.008",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير تجربة فيشة 10 فللر": {
+    "mixName": "تسعير تجربة فيشة 10 فللر",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "56.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "6.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "24.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "11.3",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.2",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.125",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.008",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير تجربة 25 فللر": {
+    "mixName": "تسعير تجربة 25 فللر",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "12.500000000000002",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "21.500000000000004",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "10.000000000000002",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0000000000000004",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.12500000000000003",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.007500000000000001",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير تجربة 35 فللر": {
+    "mixName": "تسعير تجربة 35 فللر",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "17.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "21.5",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "10.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0000000000000004",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.10000000000000002",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.12500000000000003",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.007500000000000001",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير تجربة 50 فللر": {
+    "mixName": "تسعير تجربة 50 فللر",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "25.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "21.5",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "10.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.125",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.0075",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير طري أسود": {
+    "mixName": "تسعير طري أسود",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "31.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "45.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "13.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "10.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.1",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.07",
+        "price": "115.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.22",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير طري احمر": {
+    "mixName": "تسعير طري احمر",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "31.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "38.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "20.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "9.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.25",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.06",
+        "price": "115.0"
+      },
+      {
+        "category": "Unmapped",
+        "name": "Red",
+        "originalName": "Red",
+        "phr": "0.04",
+        "price": "0.0"
+      },
+      {
+        "category": "Yellow Pig",
+        "name": "Pigment Yellow 13",
+        "originalName": "Yellow",
+        "phr": "0.048",
+        "price": "520.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير طري ازرق": {
+    "mixName": "تسعير طري ازرق",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC 70",
+        "phr": "31.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "38.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "20.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Parraffin",
+        "phr": "9.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "1.25",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.06",
+        "price": "115.0"
+      },
+      {
+        "category": "Blue Pigment",
+        "name": "Mazda 153",
+        "originalName": "Blue",
+        "phr": "0.125",
+        "price": "500.0"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 10 Black": {
+    "mixName": "Test 10 Black",
+    "formulaType": "PVC Soft",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 70",
+        "name": "Haiwan HS-1300",
+        "originalName": "PVC K70",
+        "phr": "50.0",
+        "price": "62.0"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "35.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "12.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "5.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Ca/Zn Stab",
+        "name": "Akdinez 2563",
+        "originalName": "Ca/Zn Stab",
+        "phr": "2.0",
+        "price": "123.333"
+      },
+      {
+        "category": "Stearic Acid",
+        "name": "Dekuda 1842",
+        "originalName": "St. Acid",
+        "phr": "0.1",
+        "price": "115.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon",
+        "phr": "0.3",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "03.Compounder PVC Soft Formula.xlsx / Soft Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 1 (2)": {
+    "mixName": "Test 1 (2)",
+    "formulaType": "PVC Rigid",
+    "application": "NGM Vicat Injection",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "11.25",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "0.45",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "2.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.23",
+        "price": "175.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.9",
+        "price": "190.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 3": {
+    "mixName": "Test 3",
+    "formulaType": "PVC Rigid",
+    "application": "NGM Vicat Injection",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "11.25",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "0.45",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "2.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.23",
+        "price": "175.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.007",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 4": {
+    "mixName": "Test 4",
+    "formulaType": "PVC Rigid",
+    "application": "NGM Vicat Injection",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "12.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "0.5",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "2.6",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.2",
+        "price": "175.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.04",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 5": {
+    "mixName": "Test 5",
+    "formulaType": "PVC Rigid",
+    "application": "NGM Vicat Injection",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "12.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.25",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "0.75",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "1.5",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.35",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.3",
+        "price": "175.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.25",
+        "price": "190.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM ABD (2)": {
+    "mixName": "NGM ABD (2)",
+    "formulaType": "PVC Rigid",
+    "application": "Original",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.7",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "1.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.2",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.9",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.03",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 2 (2)": {
+    "mixName": "Test 2 (2)",
+    "formulaType": "PVC Rigid",
+    "application": "NGM ABD + DOP",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.7",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "2.0",
+        "price": "110.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "1.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.2",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "1.9",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.03",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 4 (2)": {
+    "mixName": "Test 4 (2)",
+    "formulaType": "PVC Rigid",
+    "application": "NGM ABD",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "CL Paraffin",
+        "phr": "1.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.2",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.04",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test 5 (2)": {
+    "mixName": "Test 5 (2)",
+    "formulaType": "PVC Rigid",
+    "application": "NGM ABC + DOP",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "22.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "1.0",
+        "price": "110.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "Tin Stab Powder",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "Int. Lub",
+        "phr": "0.2",
+        "price": "175.0"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "Ultramarine",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.04",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "Test": {
+    "mixName": "Test",
+    "formulaType": "PVC Rigid",
+    "application": "رمادي فلانشة ووصلات",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "100.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "5.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Stab Liquid",
+        "phr": "1.6",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "2.67",
+        "price": "135.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St.",
+        "phr": "0.8",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "1.0",
+        "price": "166.031"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "IM",
+        "phr": "4.0",
+        "price": "175.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "0.667",
+        "price": "190.0"
+      },
+      {
+        "category": "Carbon Black",
+        "name": "PowCarbon 5327F",
+        "originalName": "Carbon Black",
+        "phr": "0.114",
+        "price": "191.90938511326863"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "تسعير أبيض وصلات ليبيا": {
+    "mixName": "تسعير أبيض وصلات ليبيا",
+    "formulaType": "PVC Rigid",
+    "application": "Cost Calculation / Trial",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "PVC K57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "CaCO3",
+        "phr": "5.250000000000001",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "Tin Liq",
+        "phr": "1.2000000000000002",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "Soya",
+        "phr": "2.25",
+        "price": "135.0"
+      },
+      {
+        "category": "IM",
+        "name": "Akdeniz DMA-650",
+        "originalName": "IM",
+        "phr": "3.0",
+        "price": "175.0"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "DOP",
+        "phr": "2.25",
+        "price": "110.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "PE Wax",
+        "phr": "0.30000000000000004",
+        "price": "200.0"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "Ca St",
+        "phr": "0.6000000000000001",
+        "price": "150.155"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "PA",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "TiO2",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "UM",
+        "phr": "0.003525000000000001",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "OB",
+        "phr": "0.03000000000000001",
+        "price": "1300.0"
+      }
+    ],
+    "source": "04.Compounder PVC Rigid Formula.xlsx / Rigid Trials",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM-ABC01 ك اخضر": {
+    "mixName": "NGM-ABC01 ك اخضر",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة مفعلة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "25.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت مثبت مارك",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "DOTP",
+        "name": "Plastay",
+        "originalName": "زيت DOP",
+        "phr": "1.0",
+        "price": "110.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "الترا",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.04",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.25",
+        "price": "118.079"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.5",
+        "price": "85.265"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM-ABC02 ك اخضر": {
+    "mixName": "NGM-ABC02 ك اخضر",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة مفعلة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "22.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت مثبت مارك",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "زيت سيركلور",
+        "phr": "1.0",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "0.2475",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "الترا",
+        "phr": "0.011",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.04",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.25",
+        "price": "118.079"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.5",
+        "price": "85.265"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM-ABB01 ك احمر": {
+    "mixName": "NGM-ABB01 ك احمر",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة مفعلة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت مثبت مارك",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "زيت سيركلور",
+        "phr": "0.75",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "الترا",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.04",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.25",
+        "price": "118.079"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.5",
+        "price": "85.265"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM-ABS ك ابيض": {
+    "mixName": "NGM-ABS ك ابيض",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة تجربة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت مثبت مارك",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "زيت سيركلور",
+        "phr": "1.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "0.2475",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Meilinium CR-242",
+        "originalName": "تيتانيوم كريستال",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.04",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.195",
+        "price": "118.079"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "خلطة فيكت 3": {
+    "mixName": "خلطة فيكت 3",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة تجربة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "12.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "0.5",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "2.6",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.3",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Meilinium CR-242",
+        "originalName": "تيتانيوم كريستال",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.04",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.2",
+        "price": "118.079"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "خلطة فيكت 4 تجربة 5": {
+    "mixName": "خلطة فيكت 4 تجربة 5",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة تجربة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "12.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "0.6",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "2.5",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.45",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم 1120",
+        "phr": "1.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.35",
+        "price": "118.079"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM-ABD01 ك اصفر": {
+    "mixName": "NGM-ABD01 ك اصفر",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة مفعلة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت مثبت مارك",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "زيت سيركلور",
+        "phr": "1.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "0.25",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.4",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم 1120",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "الترا",
+        "phr": "0.007",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.04",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.25",
+        "price": "118.079"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "NGM-ABD02 ك اصفر": {
+    "mixName": "NGM-ABD02 ك اصفر",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة مفعلة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "30.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت مثبت مارك",
+        "phr": "1.5",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "1.5",
+        "price": "135.0"
+      },
+      {
+        "category": "CL Paraffin",
+        "name": "Qatar CP 45AD3",
+        "originalName": "زيت سيركلور",
+        "phr": "1.5",
+        "price": "91.15843930635839"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "0.2475",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.4",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم",
+        "phr": "2.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.75",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "Ultramarine",
+        "name": "UM 580",
+        "originalName": "الترا",
+        "phr": "0.015",
+        "price": "400.0"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.1",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.25",
+        "price": "118.079"
+      },
+      {
+        "category": "CPE",
+        "name": "Sundow IM888",
+        "originalName": "CPE",
+        "phr": "0.75",
+        "price": "85.265"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "ك ابيضNGM-V005": {
+    "mixName": "ك ابيضNGM-V005",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة مفعلة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "12.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت تن",
+        "phr": "1.25",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "0.75",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "1.5",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.35",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم 1120",
+        "phr": "1.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.3",
+        "price": "118.079"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "ك ابيضNGM-V105": {
+    "mixName": "ك ابيضNGM-V105",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة مفعلة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "12.5",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت تن",
+        "phr": "1.0",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "0.75",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "1.5",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.35",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم 1120",
+        "phr": "1.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.3",
+        "price": "118.079"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "ك ابيضNGM-V105 (2)": {
+    "mixName": "ك ابيضNGM-V105 (2)",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة تجربة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "75.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت تن",
+        "phr": "1.0",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "0.75",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "1.5",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.35",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم 1120",
+        "phr": "1.25",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.5",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.3",
+        "price": "150.155"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.3",
+        "price": "118.079"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  },
+  "خلطة فيكت نادر": {
+    "mixName": "خلطة فيكت نادر",
+    "formulaType": "PVC Rigid",
+    "application": "خلطة تجربة",
+    "batchKg": "100",
+    "margin": "",
+    "depreciation": "1.5",
+    "mfgCost": "5000",
+    "packingCost": "0",
+    "transportCost": "0",
+    "financeCost": "0",
+    "ingredients": [
+      {
+        "category": "PVC 57",
+        "name": "Continental 2070",
+        "originalName": "ريزن 57",
+        "phr": "85.0",
+        "price": "59.81"
+      },
+      {
+        "category": "CaCO3",
+        "name": "Omya Egypt SF1T-RC",
+        "originalName": "فلر",
+        "phr": "15.0",
+        "price": "4.329535843242983"
+      },
+      {
+        "category": "Tin Stab Liq",
+        "name": "Mark 17 MOK D",
+        "originalName": "زيت تن",
+        "phr": "0.75",
+        "price": "801.521"
+      },
+      {
+        "category": "Soy Oil",
+        "name": "Argentina",
+        "originalName": "زيت صويا",
+        "phr": "0.4",
+        "price": "135.0"
+      },
+      {
+        "category": "Tin Stab Powder",
+        "name": "Shital 2100",
+        "originalName": "مثبت شيتال",
+        "phr": "1.75",
+        "price": "550.0"
+      },
+      {
+        "category": "PE Wax",
+        "name": "SCGC LPOO2OP",
+        "originalName": "واكس",
+        "phr": "0.2",
+        "price": "200.0"
+      },
+      {
+        "category": "TiO2",
+        "name": "Tinox 1120",
+        "originalName": "تيتانيوم 1120",
+        "phr": "2.0",
+        "price": "190.0"
+      },
+      {
+        "category": "Processing Aid",
+        "name": "Optichem 912",
+        "originalName": "بروسيسنج",
+        "phr": "0.65",
+        "price": "166.031"
+      },
+      {
+        "category": "Calcium stearate",
+        "name": "Akdinez CA-3",
+        "originalName": "كالسيوم",
+        "phr": "0.65",
+        "price": "150.155"
+      },
+      {
+        "category": "Optical Brightner",
+        "name": "Megawhite PL1",
+        "originalName": "مظهر",
+        "phr": "0.05",
+        "price": "1300.0"
+      },
+      {
+        "category": "GMS",
+        "name": "GB 1886",
+        "originalName": "مشحم جمس",
+        "phr": "0.25",
+        "price": "118.079"
+      }
+    ],
+    "source": "خلطات م مصطفى مايو 2026.xlsx",
+    "updatedAt": "2026-06-20"
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0f5f7a"/>
+  <circle cx="170" cy="170" r="54" fill="#ffffff" opacity="0.95"/>
+  <circle cx="332" cy="170" r="54" fill="#ffffff" opacity="0.72"/>
+  <path d="M128 292h256v52H128zM128 374h256v52H128z" fill="#fff" opacity="0.95"/>
+  <text x="256" y="260" font-family="Arial, sans-serif" font-size="72" font-weight="700" text-anchor="middle" fill="#ffffff">PVC</text>
+</svg>
