@@ -8,7 +8,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="PVC Calculator" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <title>حاسبة تكلفة خلطات PVC Pro</title>
+  <title>حاسبة تكلفة خلطات PVC Pro Cloud</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 </head>
@@ -134,6 +134,32 @@
         <button id="btnExportFormulaExcel" class="secondary">تصدير الخلطات Formula Excel</button>
       </div>
       <div id="formulaImportSummary" class="notice"></div>
+    </section>
+
+    <section class="panel" id="cloudSyncPanel">
+      <h2>المزامنة السحابية بين الأجهزة</h2>
+      <p class="muted">فعّل هذه الإعدادات مرة واحدة على كل جهاز. سيتم حفظ الخلطات وأسعار الخامات تلقائيًا محليًا، ثم رفعها للسحابة عند وجود إنترنت، وتنزيل آخر تحديث على باقي الأجهزة.</p>
+      <div class="grid two">
+        <label>Firebase Config JSON
+          <textarea id="firebaseConfig" rows="7" placeholder='{"apiKey":"...","authDomain":"...","projectId":"...","storageBucket":"...","messagingSenderId":"...","appId":"..."}'></textarea>
+        </label>
+        <div class="cloud-help">
+          <label>Sync ID
+            <input id="cloudSyncId" value="compounder-main" placeholder="مثال: compounder-main" />
+          </label>
+          <label>كلمة تشفير البيانات
+            <input id="cloudPassphrase" type="password" placeholder="كلمة سر واحدة على كل الأجهزة" />
+          </label>
+          <p class="muted small-note">مهم: استخدم نفس Sync ID ونفس كلمة التشفير على اللاب والآيفون والسامسونج. البيانات تُرفع مشفرة، وفقدان كلمة التشفير يمنع قراءة البيانات السحابية.</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="btnCloudSave" class="secondary">حفظ إعدادات السحابة</button>
+        <button id="btnCloudConnect">اتصال / تفعيل المزامنة</button>
+        <button id="btnCloudPush" class="secondary">رفع الآن</button>
+        <button id="btnCloudPull" class="secondary">تنزيل الآن</button>
+      </div>
+      <div id="cloudStatus" class="notice cloud-status">المزامنة السحابية غير مفعلة.</div>
     </section>
 
     <section class="panel">
