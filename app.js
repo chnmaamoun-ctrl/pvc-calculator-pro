@@ -2,19 +2,14 @@ const LS = {
   formulas: "pvcPro.formulas.v3",
   raw: "pvcPro.rawMaterials.v3",
   log: "pvcPro.priceLog.v2",
-  password: "pvcPro.password.v1",
-  cloud: "pvcPro.cloudSync.v1",
-  meta: "pvcPro.syncMeta.v1",
-  device: "pvcPro.deviceId.v1"
+  password: "pvcPro.password.v1"
 };
 
 const money = new Intl.NumberFormat("ar-EG", {minimumFractionDigits: 2, maximumFractionDigits: 2});
 const state = {
   formulas: {},
   raw: {},
-  currentIngredients: [],
-  suppressSync: false,
-  cloud: {enabled:false, connecting:false, db:null, docRef:null, unsubscribe:null, settings:null}
+  currentIngredients: []
 };
 
 function num(v, fallback=0){
@@ -68,16 +63,8 @@ function migrateRaw(oldRaw){
   return migrated;
 }
 
-function saveFormulas(){
-  localStorage.setItem(LS.formulas, JSON.stringify(state.formulas));
-  populateFormulaSelects();
-  if(!state.suppressSync) markLocalChanged("formulas");
-}
-function saveRaw(){
-  localStorage.setItem(LS.raw, JSON.stringify(state.raw));
-  refreshRawPickers();
-  if(!state.suppressSync) markLocalChanged("rawMaterials");
-}
+function saveFormulas(){ localStorage.setItem(LS.formulas, JSON.stringify(state.formulas)); populateFormulaSelects(); }
+function saveRaw(){ localStorage.setItem(LS.raw, JSON.stringify(state.raw)); refreshRawPickers(); }
 
 function populateFormulaSelects(){
   const names = Object.keys(state.formulas).sort((a,b)=>{
@@ -585,240 +572,6 @@ function exportFormulaExcel(){
   XLSX.writeFile(wb, "pvc-formulas-import.xlsx");
 }
 
-
-function getDeviceId(){
-  let id = localStorage.getItem(LS.device);
-  if(!id){
-    id = "device-" + Math.random().toString(36).slice(2) + Date.now().toString(36);
-    localStorage.setItem(LS.device, id);
-  }
-  return id;
-}
-function getSyncMeta(){
-  try { return JSON.parse(localStorage.getItem(LS.meta) || "{}"); } catch { return {}; }
-}
-function saveSyncMeta(meta){ localStorage.setItem(LS.meta, JSON.stringify(meta || {})); }
-function markLocalChanged(reason="local"){
-  const meta = getSyncMeta();
-  meta.localUpdatedAt = Date.now();
-  meta.hasPending = true;
-  meta.lastReason = reason;
-  saveSyncMeta(meta);
-  updateCloudStatus();
-  scheduleCloudPush();
-}
-function snapshotData(){
-  return {
-    formulas: state.formulas,
-    rawMaterials: state.raw,
-    priceLog: getLog(),
-    exportedAt: new Date().toISOString(),
-    appVersion: "v8-cloud-sync"
-  };
-}
-function loadCloudSettings(){
-  try { return JSON.parse(localStorage.getItem(LS.cloud) || "{}"); } catch { return {}; }
-}
-function saveCloudSettings(settings){ localStorage.setItem(LS.cloud, JSON.stringify(settings || {})); }
-function getCloudStatusText(){
-  const meta = getSyncMeta();
-  if(!state.cloud.settings?.firebaseConfig) return "المزامنة السحابية غير مفعلة.";
-  if(state.cloud.connecting) return "جاري الاتصال بالسحابة...";
-  if(!navigator.onLine) return "Offline: سيتم الحفظ محليًا ثم المزامنة عند عودة الإنترنت.";
-  if(!state.cloud.enabled) return "الإعدادات محفوظة، اضغط اتصال / تفعيل المزامنة.";
-  if(meta.hasPending) return "متصل - توجد تعديلات محلية قيد الرفع.";
-  const last = meta.lastCloudPushAt || meta.lastCloudPullAt;
-  return last ? "متصل - آخر مزامنة: " + new Date(last).toLocaleString("ar-EG") : "متصل - جاهز للمزامنة.";
-}
-function updateCloudStatus(extra=""){
-  const el = document.getElementById("cloudStatus");
-  if(el) el.textContent = extra || getCloudStatusText();
-}
-function fillCloudUI(){
-  const settings = loadCloudSettings();
-  const configEl = document.getElementById("firebaseConfig");
-  const syncEl = document.getElementById("cloudSyncId");
-  const passEl = document.getElementById("cloudPassphrase");
-  if(configEl) configEl.value = settings.firebaseConfig || "";
-  if(syncEl) syncEl.value = settings.syncId || "compounder-main";
-  if(passEl) passEl.value = settings.passphrase || "";
-  updateCloudStatus();
-}
-function readCloudUISettings(){
-  const firebaseConfig = document.getElementById("firebaseConfig")?.value.trim() || "";
-  const syncId = (document.getElementById("cloudSyncId")?.value.trim() || "compounder-main").replace(/[^a-zA-Z0-9_-]/g,"-");
-  const passphrase = document.getElementById("cloudPassphrase")?.value || "";
-  return {firebaseConfig, syncId, passphrase};
-}
-function parseFirebaseConfig(text){
-  if(!text) throw new Error("برجاء إدخال Firebase Config.");
-  let cleaned = text.trim();
-  cleaned = cleaned.replace(/^const\s+firebaseConfig\s*=\s*/i, "").replace(/^var\s+firebaseConfig\s*=\s*/i, "").replace(/^let\s+firebaseConfig\s*=\s*/i, "").replace(/;\s*$/, "");
-  return JSON.parse(cleaned);
-}
-function b64(bytes){ return btoa(String.fromCharCode(...new Uint8Array(bytes))); }
-function fromB64(s){ return Uint8Array.from(atob(s), c=>c.charCodeAt(0)); }
-async function deriveCloudKey(passphrase, saltBytes){
-  const material = await crypto.subtle.importKey("raw", new TextEncoder().encode(passphrase), "PBKDF2", false, ["deriveKey"]);
-  return crypto.subtle.deriveKey({name:"PBKDF2", salt:saltBytes, iterations:120000, hash:"SHA-256"}, material, {name:"AES-GCM", length:256}, false, ["encrypt","decrypt"]);
-}
-async function encryptPayload(data, passphrase){
-  if(!passphrase || passphrase.length < 6) throw new Error("برجاء إدخال كلمة تشفير لا تقل عن 6 حروف/أرقام.");
-  const salt = crypto.getRandomValues(new Uint8Array(16));
-  const iv = crypto.getRandomValues(new Uint8Array(12));
-  const key = await deriveCloudKey(passphrase, salt);
-  const encoded = new TextEncoder().encode(JSON.stringify(data));
-  const encrypted = await crypto.subtle.encrypt({name:"AES-GCM", iv}, key, encoded);
-  return {encrypted:true, alg:"AES-GCM", salt:b64(salt), iv:b64(iv), data:b64(encrypted)};
-}
-async function decryptPayload(payload, passphrase){
-  if(!payload) return null;
-  if(!payload.encrypted) return payload;
-  if(!passphrase) throw new Error("لا يمكن قراءة البيانات السحابية بدون كلمة التشفير.");
-  const salt = fromB64(payload.salt);
-  const iv = fromB64(payload.iv);
-  const key = await deriveCloudKey(passphrase, salt);
-  const decrypted = await crypto.subtle.decrypt({name:"AES-GCM", iv}, key, fromB64(payload.data));
-  return JSON.parse(new TextDecoder().decode(decrypted));
-}
-let cloudPushTimer = null;
-function scheduleCloudPush(){
-  if(state.suppressSync) return;
-  clearTimeout(cloudPushTimer);
-  cloudPushTimer = setTimeout(()=>cloudPush(false), 1200);
-}
-async function connectCloudSync(showAlerts=false){
-  const settings = loadCloudSettings();
-  state.cloud.settings = settings;
-  if(!settings.firebaseConfig || !settings.syncId) { updateCloudStatus(); return; }
-  if(!navigator.onLine){ updateCloudStatus(); return; }
-  try{
-    state.cloud.connecting = true; updateCloudStatus();
-    const config = parseFirebaseConfig(settings.firebaseConfig);
-    const appMod = await import("https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js");
-    const fsMod = await import("https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js");
-    const appName = "pvc-sync-" + settings.syncId;
-    const app = appMod.getApps().find(a=>a.name===appName) || appMod.initializeApp(config, appName);
-    const db = fsMod.getFirestore(app);
-    const docRef = fsMod.doc(db, "pvcCalculatorSync", settings.syncId);
-    state.cloud.db = db; state.cloud.docRef = docRef; state.cloud.enabled = true; state.cloud.fs = fsMod;
-    if(state.cloud.unsubscribe) state.cloud.unsubscribe();
-    state.cloud.unsubscribe = fsMod.onSnapshot(docRef, snap=>handleCloudSnapshot(snap).catch(err=>updateCloudStatus("خطأ في قراءة السحابة: " + err.message)), err=>updateCloudStatus("خطأ اتصال السحابة: " + err.message));
-    updateCloudStatus("تم الاتصال بالسحابة بنجاح.");
-    const meta = getSyncMeta();
-    if(meta.hasPending) scheduleCloudPush();
-    if(showAlerts) alert("تم تفعيل المزامنة السحابية.");
-  }catch(err){
-    state.cloud.enabled = false;
-    updateCloudStatus("تعذر الاتصال بالسحابة: " + err.message);
-    if(showAlerts) alert("تعذر الاتصال بالسحابة: " + err.message);
-  }finally{
-    state.cloud.connecting = false; updateCloudStatus();
-  }
-}
-async function handleCloudSnapshot(snap){
-  if(!state.cloud.settings) return;
-  if(!snap.exists()){
-    const meta = getSyncMeta();
-    if(Object.keys(state.formulas||{}).length && !meta.lastCloudPushAt) scheduleCloudPush();
-    return;
-  }
-  const remote = snap.data();
-  if(remote.updatedBy === getDeviceId()) return;
-  const remoteTs = Number(remote.updatedAt || 0);
-  const meta = getSyncMeta();
-  const localTs = Number(meta.localUpdatedAt || 0);
-  if(remoteTs > localTs){
-    const data = await decryptPayload(remote.payload, state.cloud.settings.passphrase);
-    applyCloudData(data, remoteTs);
-    updateCloudStatus("تم تنزيل أحدث بيانات من السحابة.");
-  } else if(meta.hasPending){
-    scheduleCloudPush();
-  }
-}
-function applyCloudData(data, remoteTs){
-  if(!data) return;
-  state.suppressSync = true;
-  state.formulas = data.formulas || {};
-  state.raw = migrateRaw(data.rawMaterials || {});
-  localStorage.setItem(LS.formulas, JSON.stringify(state.formulas));
-  localStorage.setItem(LS.raw, JSON.stringify(state.raw));
-  if(Array.isArray(data.priceLog)) localStorage.setItem(LS.log, JSON.stringify(data.priceLog.slice(-1000)));
-  state.suppressSync = false;
-  populateFormulaSelects();
-  const current = document.getElementById("formulaSelect")?.value;
-  const next = current && state.formulas[current] ? current : Object.keys(state.formulas)[0];
-  if(next) loadFormula(next); else newFormula();
-  const meta = getSyncMeta();
-  meta.localUpdatedAt = remoteTs || Date.now();
-  meta.lastCloudPullAt = Date.now();
-  meta.hasPending = false;
-  saveSyncMeta(meta);
-}
-async function cloudPush(force=false){
-  const settings = state.cloud.settings || loadCloudSettings();
-  if(!settings.firebaseConfig || !settings.syncId) return;
-  if(!navigator.onLine){ updateCloudStatus(); return; }
-  if(!state.cloud.enabled || !state.cloud.docRef) await connectCloudSync(false);
-  if(!state.cloud.enabled || !state.cloud.docRef) return;
-  const meta = getSyncMeta();
-  if(!force && !meta.hasPending) return;
-  try{
-    updateCloudStatus("جاري رفع البيانات للسحابة...");
-    const updatedAt = meta.localUpdatedAt || Date.now();
-    const payload = await encryptPayload(snapshotData(), settings.passphrase);
-    await state.cloud.fs.setDoc(state.cloud.docRef, {
-      payload,
-      updatedAt,
-      updatedAtIso: new Date(updatedAt).toISOString(),
-      updatedBy: getDeviceId(),
-      appVersion: "v8-cloud-sync"
-    }, {merge:true});
-    meta.lastCloudPushAt = Date.now();
-    meta.hasPending = false;
-    saveSyncMeta(meta);
-    updateCloudStatus("تم رفع البيانات للسحابة.");
-  }catch(err){
-    updateCloudStatus("فشل رفع البيانات: " + err.message);
-  }
-}
-async function cloudPull(forceAlert=false){
-  const settings = state.cloud.settings || loadCloudSettings();
-  if(!settings.firebaseConfig || !settings.syncId){ alert("برجاء ضبط إعدادات Firebase أولًا."); return; }
-  if(!navigator.onLine){ alert("لا يوجد إنترنت حاليًا."); return; }
-  if(!state.cloud.enabled || !state.cloud.docRef) await connectCloudSync(false);
-  try{
-    const snap = await state.cloud.fs.getDoc(state.cloud.docRef);
-    if(!snap.exists()){ if(forceAlert) alert("لا توجد بيانات محفوظة على السحابة حتى الآن."); return; }
-    const remote = snap.data();
-    const data = await decryptPayload(remote.payload, settings.passphrase);
-    applyCloudData(data, Number(remote.updatedAt || Date.now()));
-    if(forceAlert) alert("تم تنزيل البيانات من السحابة.");
-  }catch(err){ alert("فشل تنزيل البيانات: " + err.message); }
-}
-function bindCloudUI(){
-  fillCloudUI();
-  document.getElementById("btnCloudSave")?.addEventListener("click", ()=>{
-    const settings = readCloudUISettings();
-    saveCloudSettings(settings);
-    state.cloud.settings = settings;
-    updateCloudStatus("تم حفظ إعدادات المزامنة. اضغط اتصال / تفعيل.");
-  });
-  document.getElementById("btnCloudConnect")?.addEventListener("click", async ()=>{
-    const settings = readCloudUISettings(); saveCloudSettings(settings); state.cloud.settings = settings;
-    await connectCloudSync(true);
-  });
-  document.getElementById("btnCloudPush")?.addEventListener("click", async ()=>{
-    const settings = readCloudUISettings(); saveCloudSettings(settings); state.cloud.settings = settings;
-    const meta = getSyncMeta(); meta.hasPending = true; meta.localUpdatedAt = Date.now(); saveSyncMeta(meta);
-    await cloudPush(true);
-  });
-  document.getElementById("btnCloudPull")?.addEventListener("click", ()=>cloudPull(true));
-  window.addEventListener("online", ()=>connectCloudSync(false));
-  window.addEventListener("visibilitychange", ()=>{ if(!document.hidden) connectCloudSync(false); });
-  connectCloudSync(false);
-}
-
 function bind(){
   document.getElementById("formulaSelect").addEventListener("change", e=>loadFormula(e.target.value));
   ["batchKg","wastePct","mfgCost","packingCost","transportCost","financeCost","marginPct","viewMode","mixName"].forEach(id=>document.getElementById(id).addEventListener("input", calculate));
@@ -864,4 +617,4 @@ function renderLog(){
 }
 
 window.addEventListener("afterprint", ()=>document.body.classList.remove("print-customer"));
-bind(); seed(); bindCloudUI();
+bind(); seed();

@@ -1,4 +1,4 @@
-const CACHE_NAME = "pvc-calculator-pro-v8-cloud";
+const CACHE_NAME = "pvc-calculator-pro-v7";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -12,9 +12,7 @@ const APP_SHELL = [
   "./icon.svg"
 ];
 const CDN_ASSETS = [
-  "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js",
-  "https://www.gstatic.com/firebasejs/10.12.5/firebase-app.js",
-  "https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore.js"
+  "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"
 ];
 
 self.addEventListener("install", event => {

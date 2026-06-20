@@ -1,68 +1,61 @@
-# PVC Calculator Pro Cloud Sync v8
+# PVC Calculator Pro - Formula Excel Edition
 
-نسخة PWA تعمل Online / Offline مع مزامنة سحابية اختيارية بين الأجهزة.
+## What's included
+- `index.html` / `styles.css` / `app.js`: the updated calculator.
+- `formula.json`: initial formulas loaded in the calculator.
+- `pvc_formulas_import.xlsx`: Formula Excel file importable by the calculator.
+- `raw_material_prices_template.xlsx`: raw material price list with Material Name, Category and Price EGP/Kg.
 
-## التشغيل
+## Main updates
+- Previous demo formulas are removed from the default data.
+- The calculator now starts with the formulas extracted from the supplied PVC Soft and PVC Rigid workbooks.
+- Formula selection is grouped by `PVC Soft` and `PVC Rigid`.
+- Formula Excel import is available from the calculator interface.
+- Formula Excel export is available from the calculator interface.
+- Material names in formulas are aligned with the Raw Material file wherever a matching material exists.
 
-1. ارفع كل ملفات المجلد على GitHub Pages أو أي استضافة HTTPS.
-2. افتح الرابط من اللاب والموبايل.
-3. ثبّت التطبيق من المتصفح.
-4. افتح التطبيق مرة Online قبل الاعتماد على Offline.
+## Formula Excel format
+Keep these headers unchanged:
+Formula Type, Formula Code, Application, Batch Kg, Waste %, Mfg Cost EGP/Ton, Packing EGP/Ton, Transport EGP/Ton, Finance EGP/Ton, Margin %, Material Category, Material Name, Original Material Name, PHR / Qty, Price EGP/Kg, Source
 
-## المزامنة بين الأجهزة
+The workbook is split into:
+- PVC Soft Formulas
+- PVC Rigid Formulas
 
-هذه النسخة تضيف قسمًا جديدًا داخل الحاسبة باسم: **المزامنة السحابية بين الأجهزة**.
+## Notes
+- If the browser previously saved old data, this version uses new storage keys and will start with the new formula set.
+- Excel import requires the SheetJS CDN to load, so internet access is recommended when importing `.xlsx` files.
 
-المزامنة تحفظ البيانات التالية:
+## تحديث v4 - شاشة العميل وتنسيق الأسعار
 
-- الخلطات Formulas.
-- أسعار الخامات Raw Materials.
-- سجل تغيرات الأسعار.
+- تم ضبط عرض أسعار الخامات وكل القيم المالية داخل الحاسبة برقمين عشريين فقط.
+- تم إضافة شاشة مستقلة في نهاية الحاسبة باسم: شاشة العميل - اسم الخامة وسعر البيع.
+- شاشة العميل تعرض اسم الخلطة/الخامة وسعر البيع للطن والكيلو فقط، بدون تفاصيل التركيبة أو تكلفة الخامات.
+- تم إضافة زر نسخ العرض وزر طباعة / PDF للعميل.
 
-البيانات تحفظ أولًا محليًا على الجهاز، ثم ترفع للسحابة عند توفر الإنترنت. عند فتح جهاز آخر، يتم تنزيل أحدث نسخة من السحابة.
 
-## هل تحتاج Cloud خاص؟
+## تحديث v5 - شاشة العميل
+- شاشة العميل تعرض الآن اسم الخامة وسعر البيع/كجم فقط.
+- تم حذف سعر البيع/طن من شاشة العميل ومن النسخ.
+- عند استخدام زر طباعة / PDF للعميل يتم تغيير عنوان صفحة الطباعة إلى اسم الخامة المختارة، بحيث يظهر كاسم مقترح لملف PDF في أغلب المتصفحات.
 
-نعم. الأفضل استخدام Firebase Firestore خاص بك. لا ترفع بيانات الخلطات والأسعار على Cloud لا تملكه.
+## تشغيل الحاسبة Online / Offline على الموبايل واللاب
 
-## إعداد Firebase باختصار
+هذه النسخة مجهزة كتطبيق ويب PWA. عند رفعها على GitHub Pages أو أي استضافة HTTPS، يمكن فتحها من الموبايل واللاب وتثبيتها على الجهاز.
 
-1. ادخل إلى Firebase Console.
-2. أنشئ Project جديدًا.
-3. أضف Web App.
-4. انسخ Firebase Config JSON.
-5. فعّل Cloud Firestore.
-6. استخدم قواعد حماية مناسبة.
-7. الصق Firebase Config داخل الحاسبة.
-8. أدخل Sync ID مثل: `compounder-main`.
-9. أدخل كلمة تشفير واحدة تستخدمها على كل الأجهزة.
-10. اضغط **حفظ إعدادات السحابة** ثم **اتصال / تفعيل المزامنة**.
+### التشغيل Online
+1. ارفع محتويات المجلد على GitHub Pages أو استضافة HTTPS.
+2. افتح رابط `index.html` من المتصفح.
+3. استخدم الحاسبة بشكل طبيعي من اللاب أو الموبايل.
 
-## قواعد Firestore مقترحة كبداية
+### التثبيت على الموبايل
+- Android / Chrome: افتح الرابط ثم اضغط Install أو Add to Home Screen.
+- iPhone / Safari: افتح الرابط ثم Share ثم Add to Home Screen.
 
-> هذه القواعد تسمح بالقراءة والكتابة للمسار الخاص بالمزامنة. لأنها تعتمد على تشفير البيانات داخل التطبيق. للإنتاج الأفضل إضافة Authentication لاحقًا.
+### التثبيت على اللاب
+- Chrome / Edge: افتح الرابط، ثم اضغط أيقونة Install في شريط العنوان أو زر "تثبيت على الجهاز" داخل الحاسبة إن ظهر.
 
-```txt
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /pvcCalculatorSync/{syncId} {
-      allow read, write: if true;
-    }
-  }
-}
-```
+### التشغيل Offline
+بعد فتح الحاسبة Online أول مرة وهي محملة بالكامل، سيتم تخزين ملفات التطبيق الأساسية. بعدها يمكن فتحها بدون إنترنت من أيقونة التطبيق المثبتة أو من الرابط السابق في نفس المتصفح.
 
-## مهم جدًا
-
-- Firebase Config ليس كلمة سر، لكنه يحدد مشروعك.
-- البيانات تُرفع مشفرة بكلمة التشفير التي تكتبها داخل الحاسبة.
-- استخدم نفس كلمة التشفير ونفس Sync ID على كل الأجهزة.
-- إذا فقدت كلمة التشفير، لن تستطيع قراءة البيانات المخزنة على السحابة.
-- احتفظ دائمًا بنسخة Export Backup أو Formula Excel للخلطات المهمة.
-
-## Offline
-
-- إذا عدلت خلطة وأنت Offline، ستُحفظ محليًا على الجهاز.
-- عند عودة الإنترنت، سيحاول التطبيق رفع التعديلات تلقائيًا.
-- لو عدّل جهازان مختلفان في نفس الوقت، النسخة الأحدث زمنيًا ستغلب.
+ملاحظة: استيراد وتصدير Excel يحتاج تحميل مكتبة Excel أول مرة أثناء الاتصال بالإنترنت. بعد ذلك سيحاول التطبيق تخزينها للاستخدام Offline.
